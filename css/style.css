@@ -14,6 +14,7 @@ h1 {
     margin: 0;
 }
 img {
+    padding-top: 0.5rem;
     display: block;
     width: 100%;
 }
@@ -80,6 +81,10 @@ main{
     text-align: center;
     background: #333;
     color: #fff;
+}
+
+.subsect {
+    text-align: center;
 }
 
 #header h2 {
