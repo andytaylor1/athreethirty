@@ -12,6 +12,18 @@ $(document).ready(function () {
         );
     }); 
 
+    $('#contButton').on('click', function(e) {
+        const contact = $('#footer').position().top;
+        e.preventDefault();
+
+        $('html, body').animate(
+            {
+                scrollTop: contact
+            },
+            900
+        );
+    });
+
     $( "#MANLAS" ).click(function(e) {
         e.preventDefault();
         $( "#MANLASSEC" ).toggle();
