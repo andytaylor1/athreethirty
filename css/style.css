@@ -14,7 +14,7 @@
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 0.9% 2.2%;
+    padding: 0.9% 1.5%;
     text-decoration: none;
     transition: background 500ms ease;
 }
@@ -82,13 +82,13 @@ main{
 }
 
 #landing-image {
-    display: flex;
+    /*display: flex;*/
     padding-top: 4.5%;
     margin: 0;
 }
 
 #landing-image div{
-padding: 3px;
+padding: 10px;
 }
 
 .btn {
@@ -171,6 +171,14 @@ footer h3 {
         display: flex;
         height: 100%;
 
+    }
+
+    #landing-image {
+        display: flex;
+    }
+
+    #landing-image div{
+        padding: 6px;
     }
 
     #landing-text {
